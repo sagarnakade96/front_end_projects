@@ -1,0 +1,24 @@
+.container
+{
+	display: grid;
+	grid-template-columns:repeat(5,1fr);
+}
+
+.red
+{
+	background-color: red;
+	border: 2px red;
+	height: 200px;
+	width: 200px;
+	margin:20px;	
+}
+
+.blue
+{
+	background-color: blue;
+	border: 2px blue;
+	height: 30px;
+
+	width:100px;
+	top:0px;
+}
